@@ -55,7 +55,7 @@ import NextAuth from "next-auth"
 import CredentialsProvider from "next-auth/providers/credentials"
 import bcrypt from "bcrypt"
 import GoogleProvider from "next-auth/providers/google";
-import { MongoDBAdapter } from '@auth/mongodb-adapter'  // ✅ fixed import
+import { MongoDBAdapter } from '@next-auth/mongodb-adapter'  // ✅ fixed import
 
 export const authOptions = {
   secret: process.env.SECRET,
