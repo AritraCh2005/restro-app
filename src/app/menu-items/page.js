@@ -129,13 +129,13 @@ export default function MenuItemsPage() {
     );
   }
 
-  if (!data?.admin) {
-    return (
-      <div className="flex items-center justify-center min-h-screen">
-        <span className="text-red-500">Not an admin.</span>
-      </div>
-    );
-  }
+  // if (!data?.admin) {
+  //   return (
+  //     <div className="flex items-center justify-center min-h-screen">
+  //       <span className="text-red-500">Not an admin.</span>
+  //     </div>
+  //   );
+  // }
 
   return (
     <>
