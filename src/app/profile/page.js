@@ -65,7 +65,7 @@ export default function ProfilePage() {
   const userImage=session.data.user.image ;
   return (
     <section className="mt-8 max-w-2xl mx-auto">
-      <UserTabs isAdmin={isAdmin}/>
+      <UserTabs/>
       {/* <div className="text-center text-red-500 text-4xl mb-4">Profile</div> */}
 
       <div className="max-w-md mx-auto flex flex-col">
