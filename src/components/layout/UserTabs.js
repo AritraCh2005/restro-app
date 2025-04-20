@@ -15,7 +15,7 @@ export default function UserTabs({ isAdmin }) {
         
           <ProfileImg />
       </Link>
-      {isAdmin && (
+      {true && (
         <>
           <Link
             href={'/categories'}
