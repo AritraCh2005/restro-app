@@ -19,9 +19,9 @@ export default function UsersPage() {
 
   if (loading) return <div>Loading...</div>;
 
-  if (!data.admin) {
-    return <div>Access denied...not an Admin</div>;
-  }
+  // if (!data.admin) {
+  //   return <div>Access denied...not an Admin</div>;
+  // }
 
   return (
     <section className=" max-w-2xl mx-auto mt=8">

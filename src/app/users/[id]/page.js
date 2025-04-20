@@ -104,11 +104,11 @@ export default function EditUserPage() {
   };
 
   if (loading) return <div>Loading...</div>;
-  if (!data?.admin) return <div>You are not an admin</div>;
+  // if (!data?.admin) return <div>You are not an admin</div>;
 
   return (
     <section className="mt-8 mx-auto max-w-2xl">
-      <UserTabs isAdmin={true} />
+      <UserTabs /*isAdmin={true}*/ />
       <div className="mt-8">
         <UserForm user={user} onSave={handleSaveButtonClick} />
       </div>
