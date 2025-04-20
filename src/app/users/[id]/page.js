@@ -72,7 +72,7 @@
 import toast from "react-hot-toast";
 import UserForm from "../../../components/layout/UserForm";
 import UserTabs from "../../../components/layout/UserTabs";
-import { useProfile } from "../../../components/UseProfile";
+import { useProfile} from"../../../components/useProfile";
 import { useParams } from "next/navigation";
 import { useEffect, useState } from "react";
 
