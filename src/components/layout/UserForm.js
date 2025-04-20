@@ -106,7 +106,7 @@
 
 "use client";
 
-import { useProfile } from "../useProfile";
+import { useProfile } from "../UseProfile";
 import EditableImage from "./EditableImage";
 import { useState } from "react";
 import AddressInputs from "../layout/AddressInputs";
