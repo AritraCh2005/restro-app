@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import EditableImage from "../../components/layout/EditableImage";
 import UserTabs from "../../components/layout/UserTabs";
-import { useProfile } from "../../components/useProfile";
+import { useProfile } from "../../components/UseProfile";
 import toast from "react-hot-toast";
 import Link from "next/link";
 import Right from "../../components/icons/Right";

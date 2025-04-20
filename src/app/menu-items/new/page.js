@@ -1,5 +1,5 @@
 "use client";
-import { useProfile } from "../../../components/useProfile";
+import { useProfile } from "../../../components/UseProfile";
 import { useState } from "react";
 import { useEffect } from "react";
 import UserTabs from "../../../components/layout/UserTabs";

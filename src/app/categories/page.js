@@ -148,7 +148,7 @@
 'use client';
 import { useEffect, useState } from "react";
 import UserTabs from "../../components/layout/UserTabs";
-import { useProfile } from "../../components/useProfile";
+import { useProfile } from "../../components/UseProfile";
 import toast from "react-hot-toast";
 import DeleteButton from "../../components/DeleteButton";
 import EditIcon from "../../components/icons/EditIcon";

@@ -5,7 +5,7 @@ import SectionHeaders from "../../components/layout/SectionHeaders";
 import Image from "next/image";
 import Trash from "../../components/icons/Trash";
 import AddressInputs from "../../components/layout/AddressInputs";
-import { useProfile } from "../../components/useProfile";
+import { useProfile } from "../../components/UseProfile";
 
 export default function CartPage() {
   const { cartProducts, removeCartProduct } = useContext(CartContext);
